@@ -157,10 +157,22 @@ footer p {
     background-color:#0f0d23;
    
 }
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.rotated {
+  animation: rotation 25s infinite linear;
+}
 .rotated{
     margin-left: 8em;
     width: 50%;
-    transform: rotate(45deg);
+    /* opacity:1; */
+    /* transform: rotate(45deg); */
    
 }
 .color3{
