@@ -62,8 +62,23 @@ section {
   display: inline-block;
   letter-spacing: 2px;
 }
+footer {
+  border-top: 2px double white;
+  width: 100%;
+  margin-top: auto;
+  /* color :#e3f2fd; */
+}
 
-@media only screen and (max-width: 768px) {
+footer p {
+  margin: 0;
+  text-align: center;
+  color: white;
+  line-height: 4rem;
+  font-size: 1.2rem;
+  font-weight:600;
+  cursor: pointer;
+}
+@media only screen and (max-width: 999px) {
   .container {
     flex-direction: column;
     width: 100%;
@@ -76,7 +91,7 @@ section {
   .right {
     width: 90%;
     margin: 0;
-    margin-top: -100px;
+    margin-top: -300px;
   }
 }
 .color-blue{
