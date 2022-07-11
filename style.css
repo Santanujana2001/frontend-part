@@ -240,6 +240,20 @@ body{
   .card-stats{
       margin-bottom:0;
   }
+  body{
+    overflow-x: hidden;
+  }
+  .header {
+    padding: 2% 10%;
+    background-color: #0f0d23;
+    width: 103vw;
+}
+.btn2 {
+  margin-left: 0em;
+}
+.rotated {
+  margin-left: 5.5em;
+}
   .team{
     color: white;
     margin-left: 3rem;;
