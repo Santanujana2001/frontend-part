@@ -7,6 +7,33 @@
 html {
   font-family: "Montserrat";
 }
+#it1{
+  color: white;
+  margin:1rem;
+}
+#it2{
+  margin:1rem;
+  margin-top: 2rem;
+  color: white;
+}
+#it3{
+  font-size:large;
+  font-weight: 700;
+  margin:1rem;
+  color: white;
+}
+.extra{
+  width:290px;
+  height:180px;
+  position:absolute;
+  z-index:3;
+  display: none;
+  top:20%;
+  right:9%;
+  border-radius: 5%;
+  background: linear-gradient(to top left, #33ccff 0%, #cb2fff 100%);
+}
+
 section {
   min-height: 100vh;
   width: 100%;
@@ -259,6 +286,18 @@ body{
     margin-left: 3rem;;
     margin-top: 5em;
   }
+  .extra{
+    width:250px;
+    height:165px;
+    top:48%;
+    right:19%;
+  }
+  #it2{
+    margin:1rem;
+  }
+  #it3{
+    margin:1rem;
+  }
 }
 @media only screen and (max-width: 999px) {
   .container {
@@ -277,4 +316,3 @@ body{
     margin-bottom: 20px;
   }
 }
-

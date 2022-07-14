@@ -28,6 +28,11 @@
 
 <body>
 
+  <div id="myfirst" class="extra">
+    <i id="it1" class="fa-brands fa-ethereum fa-2x"></i>
+    <p id="it2">Amount</p>
+    <p id="it3">Ethereum</p>
+  </div>
   <div class="header">
     <nav class="navbar navbar-expand-lg navbar-dark  ">
       <div class="container-fluid">
@@ -52,7 +57,7 @@
 
             <li class="nav-item">
               <!-- <a style="color: White;" class="nav-link" href="#"><span class="color3">Re</span>sourcess</a> -->
-              <button style="color: White;" class="btn nav-link btn-outline-light ethar"><i class="fa-brands fa-ethereum">ETH/200</i></button>
+              <button onclick="showcard()" style="color: White;" class="btn nav-link btn-outline-light ethar"><i class="fa-brands fa-ethereum">ETH/200</i></button>
             </li>
 
 
@@ -80,6 +85,7 @@
     <div class="col-lg-6 re">
       <img class="rotated" src="transparent-background-moon-19.png" alt="iphone-mockup">
     </div>
+    
     <!-- mt part -->
     <div class="section stats wf-section">
       <div class="container-medium">
@@ -130,6 +136,17 @@
       <p class="gg">All Rights Reserved By &copy; DESO</p>
   </footer>
   </div>
+  <script>
+    function showcard(){
+      var x=document.getElementById("myfirst");
+      if(x.style.display === "none"){
+        x.style.display="block";
+      }
+      else{
+        x.style.display="none";
+      }
+    }
+  </script>
 </body>
 
 </html>
