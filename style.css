@@ -190,7 +190,7 @@ footer p {
 }
 .rotated{
     margin-left: 9em;
-    width: 50%;
+    width: 59%;
     margin-top: 3em;
     /* opacity:1; */
     /* transform: rotate(45deg); */
@@ -316,3 +316,10 @@ body{
     margin-bottom: 20px;
   }
 }
+@media (max-width:370px){
+  .rotated{
+    margin-left: 4.4rem;
+    width: 60%;
+  }
+}
+
